@@ -5,7 +5,7 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
 
   // Reemplaza 'http://tu-web.com' con la URL de tu web
-  await page.goto('http://tu-web.com');
+  await page.goto('http://pinkgoatalfajores.com');
 
   // Espera a que todo el contenido se cargue
   await page.waitForTimeout(5000); 
